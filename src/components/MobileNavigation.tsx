@@ -445,21 +445,18 @@ export function MobileNavigation({
                         <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
                             {/* Study Section */}
                             <div className="space-y-4">
-                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2">
-                                    {t.study}
+                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2 flex items-center gap-2">
+                                    <span className="text-sm">📚</span> {t.study}
                                 </p>
                                 <div className="flex gap-3 overflow-x-auto pb-4 no-scrollbar -mx-6 px-6 mask-fade-right">
                                     {studyLocations.map((loc) => (
                                         <button
                                             key={loc.id}
                                             onClick={() => handleSelectLocation(loc)}
-                                            className="flex-shrink-0 w-64 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left"
+                                            className="flex-shrink-0 w-48 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left flex flex-col justify-center min-h-[80px]"
                                         >
-                                            <div className="w-10 h-10 rounded-2xl bg-indigo-500/10 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                                                <GraduationCap className="w-5 h-5 text-indigo-400" />
-                                            </div>
-                                            <p className="font-bold text-foreground truncate">{loc.name}</p>
-                                            <p className="text-xs text-muted-foreground mt-1">
+                                            <p className="font-bold text-foreground truncate w-full">{loc.name}</p>
+                                            <p className="text-xs text-muted-foreground mt-1 truncate w-full">
                                                 {loc.floor ? `${loc.floor} • ` : ''}{getNodeTypeInfo(loc.type).label}
                                             </p>
                                         </button>
@@ -469,21 +466,18 @@ export function MobileNavigation({
 
                             {/* Play Section */}
                             <div className="space-y-4">
-                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2">
-                                    {t.play}
+                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2 flex items-center gap-2">
+                                    <span className="text-sm">⚽</span> {t.play}
                                 </p>
                                 <div className="flex gap-3 overflow-x-auto pb-4 no-scrollbar -mx-6 px-6 mask-fade-right">
                                     {playLocations.map((loc) => (
                                         <button
                                             key={loc.id}
                                             onClick={() => handleSelectLocation(loc)}
-                                            className="flex-shrink-0 w-64 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left"
+                                            className="flex-shrink-0 w-48 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left flex flex-col justify-center min-h-[80px]"
                                         >
-                                            <div className="w-10 h-10 rounded-2xl bg-orange-500/10 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                                                <Dribbble className="w-5 h-5 text-orange-400" />
-                                            </div>
-                                            <p className="font-bold text-foreground truncate">{loc.name}</p>
-                                            <p className="text-xs text-muted-foreground mt-1">
+                                            <p className="font-bold text-foreground truncate w-full">{loc.name}</p>
+                                            <p className="text-xs text-muted-foreground mt-1 truncate w-full">
                                                 {loc.floor ? `${loc.floor} • ` : ''}{getNodeTypeInfo(loc.type).label}
                                             </p>
                                         </button>
@@ -493,21 +487,18 @@ export function MobileNavigation({
 
                             {/* Eat Section */}
                             <div className="space-y-4">
-                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2">
-                                    {t.eat}
+                                <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] px-2 flex items-center gap-2">
+                                    <span className="text-sm">🍔</span> {t.eat}
                                 </p>
                                 <div className="flex gap-3 overflow-x-auto pb-4 no-scrollbar -mx-6 px-6 mask-fade-right">
                                     {eatLocations.map((loc) => (
                                         <button
                                             key={loc.id}
                                             onClick={() => handleSelectLocation(loc)}
-                                            className="flex-shrink-0 w-64 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left"
+                                            className="flex-shrink-0 w-48 p-4 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.08] transition-all group text-left flex flex-col justify-center min-h-[80px]"
                                         >
-                                            <div className="w-10 h-10 rounded-2xl bg-green-500/10 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                                                <Utensils className="w-5 h-5 text-green-400" />
-                                            </div>
-                                            <p className="font-bold text-foreground truncate">{loc.name}</p>
-                                            <p className="text-xs text-muted-foreground mt-1">
+                                            <p className="font-bold text-foreground truncate w-full">{loc.name}</p>
+                                            <p className="text-xs text-muted-foreground mt-1 truncate w-full">
                                                 {loc.floor ? `${loc.floor} • ` : ''}{getNodeTypeInfo(loc.type).label}
                                             </p>
                                         </button>

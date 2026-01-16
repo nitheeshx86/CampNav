@@ -224,14 +224,14 @@ const Index = () => {
 
               <div className="flex items-center gap-4 pt-4">
                 <a
-                  href="mailto:contact@example.com"
+                  href="mailto:nitheesh.k2024@vitstudent.ac.in"
                   className="p-4 bg-white/5 hover:bg-white/10 hover:scale-110 border border-white/5 rounded-2xl transition-all group"
                   title="Email Me"
                 >
                   <Mail className="w-6 h-6 text-gray-300 group-hover:text-white" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/nitheeshx86"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-[#0077b5]/10 hover:bg-[#0077b5]/20 hover:scale-110 border border-[#0077b5]/20 rounded-2xl transition-all group"
@@ -240,7 +240,7 @@ const Index = () => {
                   <Linkedin className="w-6 h-6 text-[#0077b5] group-hover:text-[#00a0dc]" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/nitheeshx86"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-white/5 hover:bg-white/10 hover:scale-110 border border-white/5 rounded-2xl transition-all group"
