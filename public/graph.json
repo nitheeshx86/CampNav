@@ -1,17 +1,6 @@
 {
   "nodes": [
     {
-      "id": "main_gate",
-      "name": "Main Gate",
-      "x": 1138,
-      "y": 676,
-      "type": "landmark",
-      "facts": [
-        "The iconic entrance to the campus.",
-        "Security is 24/7."
-      ]
-    },
-    {
       "id": "a_hostel",
       "name": "A Hostel",
       "x": 1050,
@@ -497,16 +486,6 @@
     }
   ],
   "edges": [
-    {
-      "from": "main_gate",
-      "to": "junction_1",
-      "weight": 500
-    },
-    {
-      "from": "main_gate",
-      "to": "junction_17",
-      "weight": 450
-    },
     {
       "from": "junction_17",
       "to": "a_hostel",
