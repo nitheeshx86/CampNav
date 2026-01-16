@@ -180,7 +180,7 @@ const Index = () => {
       />
 
       {/* Permanent Attribution */}
-      <div className={`fixed bottom-6 left-6 z-[100] pointer-events-auto transition-opacity duration-300 ${isSearchOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+      <div className={`fixed bottom-6 left-6 z-[100] transition-opacity duration-300 ${isSearchOpen ? 'opacity-0 pointer-events-none' : 'opacity-100 pointer-events-auto'}`}>
         <button
           onClick={() => setIsAboutOpen(true)}
           className="glass-panel px-4 py-2 shadow-[0_4px_12px_rgba(0,0,0,0.5)] hover:scale-105 active:scale-95 transition-all group"
@@ -259,7 +259,7 @@ const Index = () => {
 
       {/* Error Toast */}
       {navigationError && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 animate-slide-up w-[calc(100%-2rem)] max-w-sm">
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200] animate-slide-up w-[calc(100%-2rem)] max-w-sm">
           <div className="glass-panel px-4 py-3 flex items-center gap-3 border-destructive/50 bg-destructive/10">
             <AlertCircle className="w-5 h-5 text-destructive" />
             <p className="text-sm text-foreground flex-1">{navigationError}</p>

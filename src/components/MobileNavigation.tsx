@@ -302,7 +302,7 @@ export function MobileNavigation({
         <>
             {/* Home Screen Search Bar & Categories */}
             <div className={cn(
-                "fixed top-0 left-0 right-0 z-40 p-4 pt-6 transition-all duration-500 ease-in-out bg-gradient-to-b from-background via-background/80 to-transparent",
+                "fixed top-0 left-0 right-0 z-[100] p-4 pt-6 transition-all duration-500 ease-in-out bg-gradient-to-b from-background via-background/80 to-transparent",
                 isSearchOpen ? "opacity-0 pointer-events-none -translate-y-10" : "opacity-100"
             )}>
                 <div className="flex flex-col gap-6 max-w-sm mx-auto">
