@@ -1,0 +1,828 @@
+{
+  "nodes": [
+    {
+      "id": "main_gate",
+      "name": "Main Gate",
+      "x": 1138,
+      "y": 676,
+      "type": "landmark",
+      "facts": [
+        "The iconic entrance to the campus.",
+        "Security is 24/7."
+      ]
+    },
+    {
+      "id": "a_hostel",
+      "name": "A Hostel",
+      "x": 1050,
+      "y": 1050,
+      "type": "building"
+    },
+    {
+      "id": "d1_hostel",
+      "name": "D1 Hostel",
+      "x": 800,
+      "y": 1600,
+      "type": "building"
+    },
+    {
+      "id": "d2_hostel",
+      "name": "D2 Hostel",
+      "x": 480,
+      "y": 1480,
+      "type": "building"
+    },
+    {
+      "id": "dominos_food",
+      "name": "Dominos",
+      "x": 1100,
+      "y": 1560,
+      "type": "food"
+    },
+    {
+      "id": "gymkhana_food",
+      "name": "Gymkhana",
+      "x": 1090,
+      "y": 1720,
+      "type": "food"
+    },
+    {
+      "id": "ab1_block",
+      "name": "AB1 Academic Block",
+      "x": 1650,
+      "y": 1650,
+      "type": "academic",
+      "facts": [
+        "One of the oldest academic blocks.",
+        "Houses several computer labs."
+      ]
+    },
+    {
+      "id": "sigma_block",
+      "name": "Sigma Block",
+      "x": 1730,
+      "y": 1030,
+      "type": "building"
+    },
+    {
+      "id": "indian_bank",
+      "name": "Indian Bank",
+      "x": 1870,
+      "y": 1030,
+      "type": "service"
+    },
+    {
+      "id": "vmart_supermarket",
+      "name": "V-Mart Supermarket",
+      "x": 1930,
+      "y": 1040,
+      "type": "service"
+    },
+    {
+      "id": "northsquare_food",
+      "name": "North Square Food Court",
+      "x": 2140,
+      "y": 1300,
+      "type": "food"
+    },
+    {
+      "id": "ab3_block",
+      "name": "AB3 Academic Block",
+      "x": 2530,
+      "y": 1550,
+      "type": "academic"
+    },
+    {
+      "id": "ab4_block",
+      "name": "AB4 Academic Block",
+      "x": 3000,
+      "y": 2100,
+      "type": "academic"
+    },
+    {
+      "id": "ab2_block",
+      "name": "AB2 Academic Block",
+      "x": 3680,
+      "y": 2200,
+      "type": "academic"
+    },
+    {
+      "id": "ab5_block",
+      "name": "AB5 Academic Block",
+      "x": 3350,
+      "y": 3200,
+      "type": "academic"
+    },
+    {
+      "id": "library_block",
+      "name": "Library",
+      "x": 2010,
+      "y": 3420,
+      "type": "academic"
+    },
+    {
+      "id": "admin_block",
+      "name": "Admin Block",
+      "x": 1980,
+      "y": 3670,
+      "type": "building",
+      "facts": [
+        "The nerve center of campus operations."
+      ]
+    },
+    {
+      "id": "c_hostel",
+      "name": "C Hostel",
+      "x": 4350,
+      "y": 2200,
+      "type": "building"
+    },
+    {
+      "id": "b_hostel",
+      "name": "B Hostel",
+      "x": 4100,
+      "y": 2750,
+      "type": "building"
+    },
+    {
+      "id": "e_hostel",
+      "name": "E Hostel",
+      "x": 4500,
+      "y": 900,
+      "type": "building"
+    },
+    {
+      "id": "health_block",
+      "name": "Health Center",
+      "x": 3870,
+      "y": 3050,
+      "type": "service"
+    },
+    {
+      "id": "swimming_pool",
+      "name": "Swimming Pool",
+      "x": 3790,
+      "y": 3180,
+      "type": "sports"
+    },
+    {
+      "id": "guesthouse",
+      "name": "Guest House",
+      "x": 1050,
+      "y": 2490,
+      "type": "building"
+    },
+    {
+      "id": "tennis_ground",
+      "name": "Tennis Court",
+      "x": 1430,
+      "y": 2140,
+      "type": "sports"
+    },
+    {
+      "id": "basket_ground",
+      "name": "Basketball Court",
+      "x": 1670,
+      "y": 2680,
+      "type": "sports"
+    },
+    {
+      "id": "volley_ground",
+      "name": "Volleyball Court",
+      "x": 1380,
+      "y": 2430,
+      "type": "sports"
+    },
+    {
+      "id": "football_ground",
+      "name": "Football Ground",
+      "x": 1930,
+      "y": 2450,
+      "type": "sports"
+    },
+    {
+      "id": "running_ground",
+      "name": "Running Track",
+      "x": 1910,
+      "y": 2470,
+      "type": "sports"
+    },
+    {
+      "id": "cricket_ground",
+      "name": "Cricket Ground",
+      "x": 2700,
+      "y": 2600,
+      "type": "sports"
+    },
+    {
+      "id": "vit_pond",
+      "name": "VIT Pond",
+      "x": 2020,
+      "y": 4080,
+      "type": "landmark"
+    },
+    {
+      "id": "gazebo_food",
+      "name": "Gazebo Food Court",
+      "x": 2550,
+      "y": 3100,
+      "type": "food"
+    },
+    {
+      "id": "aavin_food",
+      "name": "Aavin Parlor",
+      "x": 3520,
+      "y": 2830,
+      "type": "food"
+    },
+    {
+      "id": "mg_block",
+      "name": "MG Auditorium",
+      "x": 2700,
+      "y": 4550,
+      "type": "auditorium"
+    },
+    {
+      "id": "voc_auditorium",
+      "name": "VOC Auditorium",
+      "x": 1980,
+      "y": 3670,
+      "type": "auditorium",
+      "floor": "Admin Block 5th floor",
+      "blockId": "admin_block",
+      "facts": [
+        "Named after V. O. Chidambaram Pillai.",
+        "Often hosts cultural events."
+      ]
+    },
+    {
+      "id": "ruby_hall",
+      "name": "Ruby Conference Hall",
+      "x": 1980,
+      "y": 3670,
+      "type": "auditorium",
+      "floor": "Admin Block 5th floor",
+      "blockId": "admin_block",
+      "facts": [
+        "A premium conference venue.",
+        "Equipped with state-of-the-art audio systems."
+      ]
+    },
+    {
+      "id": "nethaji_auditorium",
+      "name": "Nethaji Auditorium",
+      "x": 1650,
+      "y": 1650,
+      "type": "auditorium",
+      "floor": "AB1 7th floor",
+      "blockId": "ab1_block",
+      "facts": [
+        "Highest auditorium in AB1.",
+        "Named after Subhash Chandra Bose."
+      ]
+    },
+    {
+      "id": "kamaraj_auditorium",
+      "name": "Kamaraj Auditorium",
+      "x": 2530,
+      "y": 1550,
+      "type": "auditorium",
+      "floor": "AB3 ground floor",
+      "blockId": "ab3_block",
+      "facts": [
+        "Largest auditorium in AB3.",
+        "Named after K. Kamaraj."
+      ]
+    },
+    {
+      "id": "mini_conf_hall",
+      "name": "Mini Conference Hall",
+      "x": 1650,
+      "y": 1650,
+      "type": "auditorium",
+      "floor": "AB1 1st floor",
+      "blockId": "ab1_block",
+      "facts": [
+        "Ideal for small group meetings.",
+        "Located on the first floor of AB1."
+      ]
+    },
+    {
+      "id": "farm_ground",
+      "name": "Farm Area",
+      "x": 640,
+      "y": 950,
+      "type": "landmark"
+    },
+    {
+      "id": "junction_1",
+      "name": "Road Junction 1",
+      "x": 1627,
+      "y": 1150,
+      "type": "junction"
+    },
+    {
+      "id": "junction_2",
+      "name": "Road Junction 2",
+      "x": 1218,
+      "y": 1485,
+      "type": "junction"
+    },
+    {
+      "id": "junction_3",
+      "name": "Road Junction 3",
+      "x": 1180,
+      "y": 1842,
+      "type": "junction"
+    },
+    {
+      "id": "junction_4",
+      "name": "Road Junction 4",
+      "x": 1581,
+      "y": 1903,
+      "type": "junction"
+    },
+    {
+      "id": "junction_5",
+      "name": "Road Junction 5",
+      "x": 1885,
+      "y": 1840,
+      "type": "junction"
+    },
+    {
+      "id": "junction_6",
+      "name": "Road Junction 6",
+      "x": 2036,
+      "y": 1704,
+      "type": "junction"
+    },
+    {
+      "id": "junction_7",
+      "name": "Road Junction 7",
+      "x": 2145,
+      "y": 1514,
+      "type": "junction"
+    },
+    {
+      "id": "junction_8",
+      "name": "Road Junction 8",
+      "x": 2523,
+      "y": 1088,
+      "type": "junction"
+    },
+    {
+      "id": "junction_9",
+      "name": "Road Junction 9",
+      "x": 2958,
+      "y": 1340,
+      "type": "junction"
+    },
+    {
+      "id": "junction_10",
+      "name": "Road Junction 10",
+      "x": 2577,
+      "y": 2012,
+      "type": "junction"
+    },
+    {
+      "id": "junction_11",
+      "name": "Road Junction 11",
+      "x": 3364,
+      "y": 2793,
+      "type": "junction"
+    },
+    {
+      "id": "junction_12",
+      "name": "Road Junction 12",
+      "x": 1749,
+      "y": 2936,
+      "type": "junction"
+    },
+    {
+      "id": "junction_13",
+      "name": "Road Junction 13",
+      "x": 2256,
+      "y": 3103,
+      "type": "junction"
+    },
+    {
+      "id": "junction_14",
+      "name": "Road Junction 14",
+      "x": 1878,
+      "y": 3517,
+      "type": "junction"
+    },
+    {
+      "id": "junction_15",
+      "name": "Road Junction 15",
+      "x": 2388,
+      "y": 3628,
+      "type": "junction"
+    },
+    {
+      "id": "junction_16",
+      "name": "Road Junction 16",
+      "x": 2745,
+      "y": 3692,
+      "type": "junction"
+    },
+    {
+      "id": "junction_17",
+      "name": "Road Junction 17",
+      "x": 782,
+      "y": 1107,
+      "type": "junction"
+    },
+    {
+      "id": "junction_18",
+      "name": "Road Junction 18",
+      "x": 966,
+      "y": 1818,
+      "type": "junction"
+    },
+    {
+      "id": "junction_19",
+      "name": "Road Junction 19",
+      "x": 3691,
+      "y": 1750,
+      "type": "junction"
+    },
+    {
+      "id": "junction_20",
+      "name": "Road Junction 20",
+      "x": 3833,
+      "y": 2229,
+      "type": "junction"
+    },
+    {
+      "id": "junction_21",
+      "name": "Road Junction 21",
+      "x": 4475,
+      "y": 2557,
+      "type": "junction"
+    },
+    {
+      "id": "junction_22",
+      "name": "Road Junction 22",
+      "x": 2852,
+      "y": 3369,
+      "type": "junction"
+    },
+    {
+      "id": "junction_23",
+      "name": "Road Junction 23",
+      "x": 1674,
+      "y": 3448,
+      "type": "junction"
+    },
+    {
+      "id": "junction_24",
+      "name": "Road Junction 24",
+      "x": 2413,
+      "y": 4315,
+      "type": "junction"
+    }
+  ],
+  "edges": [
+    {
+      "from": "main_gate",
+      "to": "junction_1",
+      "weight": 500
+    },
+    {
+      "from": "main_gate",
+      "to": "junction_17",
+      "weight": 450
+    },
+    {
+      "from": "junction_17",
+      "to": "a_hostel",
+      "weight": 100
+    },
+    {
+      "from": "junction_17",
+      "to": "junction_2",
+      "weight": 450
+    },
+    {
+      "from": "junction_1",
+      "to": "junction_2",
+      "weight": 450
+    },
+    {
+      "from": "junction_1",
+      "to": "sigma_block",
+      "weight": 150
+    },
+    {
+      "from": "junction_1",
+      "to": "junction_8",
+      "weight": 900
+    },
+    {
+      "from": "sigma_block",
+      "to": "indian_bank",
+      "weight": 140
+    },
+    {
+      "from": "indian_bank",
+      "to": "vmart_supermarket",
+      "weight": 60
+    },
+    {
+      "from": "junction_2",
+      "to": "junction_3",
+      "weight": 400
+    },
+    {
+      "from": "junction_2",
+      "to": "dominos_food",
+      "weight": 100
+    },
+    {
+      "from": "dominos_food",
+      "to": "gymkhana_food",
+      "weight": 160
+    },
+    {
+      "from": "junction_3",
+      "to": "junction_4",
+      "weight": 400
+    },
+    {
+      "from": "junction_3",
+      "to": "junction_18",
+      "weight": 220
+    },
+    {
+      "from": "junction_18",
+      "to": "d1_hostel",
+      "weight": 200
+    },
+    {
+      "from": "junction_18",
+      "to": "d2_hostel",
+      "weight": 500
+    },
+    {
+      "from": "junction_4",
+      "to": "junction_5",
+      "weight": 310
+    },
+    {
+      "from": "junction_4",
+      "to": "ab1_block",
+      "weight": 100
+    },
+    {
+      "from": "junction_5",
+      "to": "junction_6",
+      "weight": 200
+    },
+    {
+      "from": "junction_6",
+      "to": "junction_7",
+      "weight": 230
+    },
+    {
+      "from": "junction_7",
+      "to": "northsquare_food",
+      "weight": 200
+    },
+    {
+      "from": "junction_7",
+      "to": "junction_8",
+      "weight": 550
+    },
+    {
+      "from": "junction_8",
+      "to": "junction_9",
+      "weight": 500
+    },
+    {
+      "from": "junction_8",
+      "to": "ab3_block",
+      "weight": 470
+    },
+    {
+      "from": "junction_9",
+      "to": "junction_10",
+      "weight": 700
+    },
+    {
+      "from": "junction_6",
+      "to": "junction_10",
+      "weight": 600
+    },
+    {
+      "from": "junction_10",
+      "to": "ab4_block",
+      "weight": 450
+    },
+    {
+      "from": "junction_10",
+      "to": "junction_11",
+      "weight": 1000
+    },
+    {
+      "from": "junction_3",
+      "to": "tennis_ground",
+      "weight": 350
+    },
+    {
+      "from": "junction_3",
+      "to": "guesthouse",
+      "weight": 700
+    },
+    {
+      "from": "junction_3",
+      "to": "junction_12",
+      "weight": 1100
+    },
+    {
+      "from": "junction_12",
+      "to": "basket_ground",
+      "weight": 250
+    },
+    {
+      "from": "junction_12",
+      "to": "junction_13",
+      "weight": 520
+    },
+    {
+      "from": "junction_13",
+      "to": "gazebo_food",
+      "weight": 300
+    },
+    {
+      "from": "junction_13",
+      "to": "junction_11",
+      "weight": 1100
+    },
+    {
+      "from": "junction_11",
+      "to": "ab5_block",
+      "weight": 400
+    },
+    {
+      "from": "junction_11",
+      "to": "aavin_food",
+      "weight": 200
+    },
+    {
+      "from": "junction_11",
+      "to": "junction_19",
+      "weight": 1100
+    },
+    {
+      "from": "junction_19",
+      "to": "ab2_block",
+      "weight": 450
+    },
+    {
+      "from": "junction_19",
+      "to": "junction_20",
+      "weight": 500
+    },
+    {
+      "from": "junction_20",
+      "to": "c_hostel",
+      "weight": 400
+    },
+    {
+      "from": "junction_20",
+      "to": "junction_21",
+      "weight": 700
+    },
+    {
+      "from": "junction_21",
+      "to": "b_hostel",
+      "weight": 400
+    },
+    {
+      "from": "junction_21",
+      "to": "e_hostel",
+      "weight": 1700
+    },
+    {
+      "from": "junction_11",
+      "to": "health_block",
+      "weight": 550
+    },
+    {
+      "from": "health_block",
+      "to": "swimming_pool",
+      "weight": 180
+    },
+    {
+      "from": "junction_12",
+      "to": "junction_23",
+      "weight": 520
+    },
+    {
+      "from": "junction_23",
+      "to": "junction_14",
+      "weight": 150
+    },
+    {
+      "from": "junction_14",
+      "to": "library_block",
+      "weight": 150
+    },
+    {
+      "from": "junction_14",
+      "to": "admin_block",
+      "weight": 160
+    },
+    {
+      "from": "junction_14",
+      "to": "junction_15",
+      "weight": 520
+    },
+    {
+      "from": "junction_15",
+      "to": "junction_16",
+      "weight": 360
+    },
+    {
+      "from": "junction_16",
+      "to": "junction_22",
+      "weight": 340
+    },
+    {
+      "from": "junction_22",
+      "to": "ab5_block",
+      "weight": 500
+    },
+    {
+      "from": "junction_15",
+      "to": "junction_24",
+      "weight": 690
+    },
+    {
+      "from": "junction_24",
+      "to": "vit_pond",
+      "weight": 400
+    },
+    {
+      "from": "junction_24",
+      "to": "mg_block",
+      "weight": 400
+    },
+    {
+      "from": "junction_14",
+      "to": "voc_auditorium",
+      "weight": 160
+    },
+    {
+      "from": "junction_14",
+      "to": "ruby_hall",
+      "weight": 160
+    },
+    {
+      "from": "junction_4",
+      "to": "nethaji_auditorium",
+      "weight": 100
+    },
+    {
+      "from": "junction_4",
+      "to": "mini_conf_hall",
+      "weight": 100
+    },
+    {
+      "from": "junction_8",
+      "to": "kamaraj_auditorium",
+      "weight": 470
+    },
+    {
+      "from": "junction_16",
+      "to": "junction_24",
+      "weight": 700
+    },
+    {
+      "from": "tennis_ground",
+      "to": "volley_ground",
+      "weight": 290
+    },
+    {
+      "from": "volley_ground",
+      "to": "basket_ground",
+      "weight": 350
+    },
+    {
+      "from": "football_ground",
+      "to": "running_ground",
+      "weight": 50
+    },
+    {
+      "from": "junction_13",
+      "to": "cricket_ground",
+      "weight": 500
+    },
+    {
+      "from": "a_hostel",
+      "to": "farm_ground",
+      "weight": 400
+    }
+  ]
+}

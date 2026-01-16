@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Campus Navigation Design System - Dark Map Theme */
+
+@layer base {
+  :root {
+    /* Dark theme matching SVG background */
+    --background: 0 0% 12%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Cyan accent for navigation */
+    --primary: 190 100% 50%;
+    --primary-foreground: 0 0% 5%;
+
+    --secondary: 220 15% 25%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 10% 20%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 190 80% 45%;
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 15% 25%;
+    --input: 220 15% 25%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom navigation colors */
+    --path-highlight: 190 100% 55%;
+    --path-glow: 190 100% 65%;
+    --node-start: 145 80% 45%;
+    --node-end: 0 85% 55%;
+    --glass-bg: 220 15% 18%;
+    --glass-border: 220 15% 30%;
+
+    /* Shadows */
+    --shadow-glow: 0 0 30px hsl(190 100% 50% / 0.3);
+    --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .dark {
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Hide scrollbar for cleaner look */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
+
+@layer components {
+
+  /* Glass morphism panels */
+  .glass-panel {
+    @apply bg-card/90 backdrop-blur-xl border border-border rounded-xl;
+    box-shadow: var(--shadow-card);
+  }
+
+  /* Navigation path animation */
+  .path-animated {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw-path 2s ease-out forwards;
+  }
+
+  @keyframes draw-path {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* Pulse animation for markers */
+  .marker-pulse {
+    animation: pulse-marker 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-marker {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.7;
+      transform: scale(1.1);
+    }
+  }
+
+  /* Glow effect for highlighted elements */
+  .glow-effect {
+    filter: drop-shadow(0 0 8px hsl(var(--primary) / 0.6));
+  }
+
+  /* Button variants */
+  .btn-navigation {
+    @apply px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium;
+    @apply hover:bg-primary/90 transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-secondary text-secondary-foreground rounded-lg font-medium;
+    @apply hover:bg-secondary/80 transition-all duration-200;
+    @apply border border-border;
+  }
+
+  .btn-ghost {
+    @apply px-3 py-2 text-muted-foreground rounded-lg;
+    @apply hover:bg-muted hover:text-foreground transition-all duration-200;
+  }
+
+  /* Select/Dropdown styling */
+  .select-navigation {
+    @apply w-full px-4 py-3 bg-muted border border-border rounded-lg;
+    @apply text-foreground placeholder:text-muted-foreground;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary;
+    @apply transition-all duration-200;
+    @apply appearance-none cursor-pointer;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.75rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+  }
+
+  /* Location type badges */
+  .badge-academic {
+    @apply bg-blue-500/20 text-blue-400 border-blue-500/30;
+  }
+
+  .badge-building {
+    @apply bg-purple-500/20 text-purple-400 border-purple-500/30;
+  }
+
+  .badge-food {
+    @apply bg-orange-500/20 text-orange-400 border-orange-500/30;
+  }
+
+  .badge-sports {
+    @apply bg-green-500/20 text-green-400 border-green-500/30;
+  }
+
+  .badge-service {
+    @apply bg-yellow-500/20 text-yellow-400 border-yellow-500/30;
+  }
+
+  .badge-landmark {
+    @apply bg-pink-500/20 text-pink-400 border-pink-500/30;
+  }
+
+  /* Map container */
+  .map-container {
+    @apply w-full h-full overflow-hidden cursor-grab active:cursor-grabbing;
+    touch-action: none;
+  }
+
+  /* Floating controls */
+  .floating-controls {
+    @apply fixed z-50;
+  }
+
+  /* Location marker styles */
+  .location-marker {
+    @apply absolute w-4 h-4 rounded-full transform -translate-x-1/2 -translate-y-1/2;
+    @apply transition-all duration-300;
+  }
+
+  .location-marker.start {
+    @apply bg-green-500 ring-4 ring-green-500/30;
+  }
+
+  .location-marker.end {
+    @apply bg-red-500 ring-4 ring-red-500/30;
+  }
+}
+
+@layer utilities {
+
+  /* Animations */
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Custom Utilities */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .mask-fade-right {
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+}
