@@ -400,7 +400,7 @@ export function MapViewer({ pathResult, startNode, endNode, nodes, language, onL
       />
 
       {/* Zoom Controls */}
-      <div className="absolute bottom-6 right-6 flex flex-col gap-2 z-[100]">
+      <div className="absolute bottom-6 right-6 flex flex-col gap-2 z-[10]">
         <button
           onClick={handleZoomIn}
           className="w-10 h-10 glass-panel flex items-center justify-center hover:bg-muted transition-colors"
