@@ -395,7 +395,7 @@ export function MobileNavigation({
                         <div className="relative group">
                             <div className="absolute left-4 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full border-2 border-green-500 bg-background z-10" />
                             <input
-                                placeholder={`${t.from}: ${t.currentLocation}`}
+                                placeholder="From where?"
                                 value={startQuery}
                                 onFocus={() => setActiveField('start')}
                                 onChange={(e) => setStartQuery(e.target.value)}
